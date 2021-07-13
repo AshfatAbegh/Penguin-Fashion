@@ -1,0 +1,595 @@
+* {
+    font-family: sans-serif;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  All     """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    outline: none;
+}
+.box {
+    width: 80%;
+    margin: 0 auto;
+}
+.btn-BuyNow {
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: .5em;
+}
+.btn-BuyNow div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-BuyNow div img {
+    width: 2em;
+    height: 2em;
+    object-fit: contain;
+}
+.btn-BuyNow div p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Header  """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+header {
+    background-color: #fffbf0;
+}
+#headerBar {
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerBar img {
+    width: 20em;
+}
+#headerBar a {
+    padding: .5em 1em;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+#headerModel {
+    padding-bottom: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#modelText {
+    width: 30em;
+}
+#modelText h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #363958;
+}
+#modelText span {
+    display: block;
+    text-transform: uppercase;
+    color: #fabe4c;
+}
+#modelText p {
+    width: 75%;
+    margin: .5em 0 1.25em 0;
+}
+#modelText .btn-BuyNow div p {
+    margin: 0;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+#modelImg {
+    width: 25em;
+}
+#modelImg img {
+    width: 100%;
+    object-fit: contain;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Man Woman """""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+.manwoman {
+    margin-top: 5em;
+}
+.manwoman h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #363958;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 17.5em;
+    height: 27em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: .2em .2em 10px rgba(0, 0, 0, .3);
+}
+.cardImg {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: rgb(231, 226, 226);
+}
+.card img {
+    width: 13em;
+    height: 13em;
+    object-fit:contain;
+}
+.card h2 {
+    width: 12.5em;
+    margin: .5em auto 0 auto;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.card p {
+    width: 16em;
+    margin: .25em auto .25em auto;
+    font-size: .95rem;
+    text-align: justify;
+}
+.cardPrice {
+    width: 16em;
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardPrice h3 {
+    margin: 0;
+    font-size: 2rem;
+    color: #fabf4f;
+}
+.cardPrice p {
+    width: 100%;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Service """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+#sectService {
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#serviceBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.serviceBox {
+    width: 27.5em;
+    height: 6em;
+    margin: .5em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: 0 .2em 10px rgba(0, 0, 0, .2);
+}
+.serviceBox img {
+    width: 4em;
+    object-fit: contain;
+}
+.boxText {
+    width: 20em;
+}
+.boxText h2 {
+    margin: 0;
+}
+.boxText p {
+    margin: 0;
+    padding-top: .2em;
+    font-size: .95rem;
+}
+#serviceImg {
+    width: 30em;
+}
+#serviceImg img {
+    width: 100%;
+    object-fit: contain;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Contact """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+#sectContact {
+    width: 100%;
+    margin: 10em auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sectContact img {
+    width: 30em;
+}
+#sectContact p {
+    margin: .5em;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+#sectContact div {
+    border-radius: 25px;
+    box-shadow: .2em .2em 10px rgba(0, 0, 0, .3);
+}
+#sectContact input {
+    width: 20em;
+    padding: .5em 1em;
+    font-size: 1.1em;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+#sectContact a {
+    margin-left: .1em;
+    padding: .35em 1.5em;
+    border-radius: 10px;
+    font-size: 1.1em;
+    box-shadow: .2em .2em 10px rgba(0, 0, 0, .05);
+    background:  green;
+    border-radius: 25px;
+    border: .2em solid green;
+    color: #ffffff;
+    transition: all ease .2s;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Footer  """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+footer {
+    width: 100%;
+    height: 10em;
+    margin: 10em auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffbf0;
+}
+footer p:nth-child(1) {
+    margin: .5em 0 .25em 0;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+#copy {
+    margin: 0;
+    font-size: .9em;
+}
+#footerLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerLink a {
+    margin: 0 .25em;
+}
+#footerLink a:hover {
+    transform: scale(1.2);
+}
+#footerLink img {
+    width: 2em;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Media   """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+@media(max-width: 1170px) {
+    .box {
+        width: 85%;
+    }  
+}
+@media(max-width: 1102px) {
+    .box {
+        width: 90%;
+    }
+}
+@media(max-width: 1040px) {
+    .box {
+        width: 95%;
+    }
+}
+@media(max-width: 985px) {
+    .box {
+        width: 85%;
+    }
+    .card {
+        margin: 2em;
+        flex-grow: .2;
+    }
+    #sectService {
+        flex-direction: column;
+    }
+    #serviceBox {
+        order: 2;
+    }
+    #serviceImg {
+        order: 1;
+        margin-bottom: 5em;
+    }
+}
+@media(max-width: 880px) {
+    .box {
+        width: 90%;
+    }
+}
+@media(max-width: 832px) {
+    .box {
+        width: 95%;
+    }
+}
+@media(max-width: 788px) {
+    .box {
+        width: 90%;
+    }
+    nav {
+        display: none;
+    }
+    #headerBar span {
+        width: 2em;
+        height: .3em;
+        border-radius: 2em;
+        position: relative;
+        cursor: pointer;
+        background-color: #000000;
+    }
+    #headerBar span::before,
+    #headerBar span::after {
+        width: 100%;
+        height: 100%;
+        border-radius: 2em;
+        content: '';
+        position: absolute;
+        background-color: #000000;
+    }
+    #headerBar span::before {
+        top: -.5em;
+    }
+    #headerBar span::after {
+        top: .5em;
+    }
+    #headerModel {
+        margin-top: 1em;
+        flex-direction: column;
+    }
+    #modelImg {
+        margin-top: 1em;
+    }
+    .card {
+        margin: 1em;
+    }
+}
+@media(max-width: 560px) {
+    #modelText {
+        width: 27em;
+    }
+    #modelText p {
+        width: 90%;
+    }
+    #modelImg {
+        width: 25em;
+        margin-top: 3em;
+    }
+    #serviceImg {
+        width: 25em;
+    }
+    #sectContact img {
+        width: 25em;
+    }
+    #sectContact input {
+        width: 12.5em;
+    }
+}
+@media(max-width: 480px) {
+    #modelText {
+        width: 22.5em;
+    }
+    #modelText h1 {
+        font-size: 2.5rem;
+    }
+    #modelText p {
+        margin-bottom: .5em;
+    }
+    #modelImg {
+        width: 20em;
+    }
+    #serviceImg {
+        width: 20em;
+    }
+    .serviceBox {
+        width: 17.5em;
+        height: 17.5em;
+        flex-direction: column;
+    }
+    .serviceBox img {
+        width: 6em;
+    }
+    .boxText {
+        width: 15em;
+    }
+    #sectContact img {
+        width: 20em;
+    }
+    #sectContact p {
+        font-size: 2em;
+    }
+    #sectContact input {
+        width: 10em;
+    }
+    #sectContact a {
+        padding: .35em .5em;
+    }
+}
+@media(max-width: 390px) {
+    #headerBar img {
+        width: 12.5em;
+    }
+    #modelText {
+        width: 17.5em;
+    }
+    #modelText h1 {
+        font-size: 2rem;
+    }
+    #modelText p {
+        font-size: .95rem;
+        margin-bottom: .75em;
+    }
+    #modelImg {
+        width: 17.5em;
+    }
+    .card {
+        flex-grow: 0;
+    }
+    #serviceImg {
+        width: 17.5em;
+    }
+    #sectContact img {
+        width: 17.5em;
+    }
+    #copy {
+        width: 17em;
+        text-align: center;
+    }
+}
+@media(max-width: 360px) {
+    .btn-BuyNow {
+        width: 8em;
+        height: 2.5em;
+    }
+    .btn-BuyNow div img {
+        width: 1.75em;
+        height: 1.75em;
+        object-fit: contain;
+    }
+    .btn-BuyNow div p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .card {
+        width: 100%;
+        height: 27em;
+        margin: 1em;
+    }
+    .cardImg {
+        padding: 1em;
+        border-radius: 1em;
+        background-color: rgb(231, 226, 226);
+    }
+    .card img {
+        width: 12em;
+        height: 12em;
+    }
+    .card h2 {
+        width: 12em;
+        font-size: 1.125rem;
+    }
+    .card p {
+        width: 15em;
+        font-size: .9rem;
+    }
+    .cardPrice {
+        width: 13.25em;
+    }
+    .cardPrice h3 {
+        font-size: 1.75rem;
+    }
+    .cardPrice p {
+        width: 100%;
+    }
+    #sectContact p {
+        font-size: 1.5em;
+    }
+    #sectContact input {
+        width: 7.5em;
+        font-size: 1rem;
+    }
+    #sectContact a {
+        padding: .35em .5em;
+        font-size: 1rem;
+    }
+}
+@media(max-width: 320px) {
+    .box {
+        width: 95%;
+    }
+}
+@media(max-width: 300px) {
+    .btn-BuyNow {
+        width: 6.5em;
+        height: 2.25em;
+    }
+    .btn-BuyNow div img {
+        width: 1.25em;
+        height: 1.25em;
+    }
+    .btn-BuyNow div p {
+        font-size: .9rem;
+    }
+    #modelText {
+        width: 15em;
+    }
+    #modelText h1 {
+        font-size: 1.75rem;
+    }
+    #modelText p {
+        font-size: .8rem;
+    }
+    #modelImg {
+        width: 14em;
+    }
+    .manwoman h1 {
+        text-align: center;
+        font-size: 1.75rem;
+    }
+    .card {
+        width: 13em;
+        height: 21em;
+    }
+    .cardImg img {
+        width: 8em;
+        height: 8em;
+    }
+    .card h2 {
+        width: 10.5em;
+        font-size: 1rem;
+    }
+    .card p {
+        width: 12.5em;
+        font-size: .8rem;
+    }
+    .cardPrice {
+        width: 10em;
+    }
+    .cardPrice h3 {
+        font-size: 1.25rem;
+    }
+    .cardPrice p {
+        width: 100%;
+    }
+    #serviceImg {
+        width: 14em;
+    }
+    .serviceBox {
+        width: 12em;
+        height: 12em;
+        flex-direction: column;
+    }
+    .serviceBox img {
+        width: 4em;
+    }
